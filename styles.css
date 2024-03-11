@@ -1,0 +1,155 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body
+{
+background-color: #0b0431;
+font-family: 'Public Pixel', sans-serif;
+}
+
+label
+{
+  margin-right: 20px;
+}
+
+label:hover
+{
+  color:#f428f9;
+}
+
+input
+{
+  width: 180px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-right: 40px;
+  height: 30px;
+  border-radius: 10px;
+  border: 0px transparent;
+  font-family: 'Public Pixel', sans-serif;
+}
+
+input:focus
+{
+  border: 3px solid #9600e6;
+  outline: none;
+}
+
+#user-email:invalid
+{
+  border: 3px solid red;
+}
+
+#user-phone-number:invalid
+{
+  border: 3px solid red;
+}
+
+
+.container-forms
+{
+  position: relative;
+  left: 850px;
+  top: 50px;
+  background-color: #0b0b4b;
+  padding: 70px 0px 90px 50px;
+  border-radius: 150px 50px 150px 50px;
+  width: 600px;
+  color: white;
+  font-size: 15px;
+  border: 2mm ridge #0ac6f8;
+
+}
+
+
+.heading
+{
+  font-size: 40px;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.heading:hover
+{
+  color: #f428f9;
+}
+
+.container-image
+{
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+}
+
+#display-photo
+{
+  height: 760px;
+  width: 830px;
+}
+
+.brand
+{
+  position: relative;
+  bottom: 400px;
+  height: 80px;
+  width: 830px;
+  opacity: 0.8;
+  background-color: black;
+}
+
+.brand:hover
+{
+  opacity: 1;
+}
+
+
+.brand-content
+{
+  color: white;
+  opacity: 1;
+}
+
+#submit
+{
+  margin: 10px;
+  margin-left: 0px;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 10px;
+  font-family: 'Public Pixel', sans-serif;
+}
+
+#submit:hover
+{
+  background-color: #0ac6f8;
+}
+
+#submit:active
+{
+   background-color: white;
+}
+
+#password-message
+{
+  margin-left: 240px;
+  font-size: 10px;
+  margin-top:0px;
+}
